@@ -1,3 +1,8 @@
+---
+title: CUPS：共享打印机服务
+date: 2025-12-26 16:26:50
+tags: Docker
+---
 CUPS 是一个基于标准的开源打印系统，适用于 Linux®及其他类 Unix®作系统。CUPS 支持打印至：
 
 + [AirPrint™](https://support.apple.com/en-us/HT201311) 和 [IPP Everywhere™](https://www.pwg.org/printers) 打印机，
