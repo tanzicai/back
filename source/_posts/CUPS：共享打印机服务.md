@@ -6,9 +6,8 @@ tags: Docker
 CUPS 是一个基于标准的开源打印系统，适用于 Linux®及其他类 Unix®作系统。CUPS 支持打印至：
 
 + [AirPrint™](https://support.apple.com/en-us/HT201311) 和 [IPP Everywhere™](https://www.pwg.org/printers) 打印机，
++ 网络和本地（USB）打印机，以及打印机应用程序，
 
-- 
-  网络和本地（USB）打印机，以及打印机应用程序，
 - 网络和本地（USB）打印机，使用（传统）基于 PPD 的打印机驱动程序。
 
 在远程机器上运行 CUPS 打印服务器，通过 WiFi 共享 USB 打印机。其可以部署在Linux 系统、Unix 系统及 Docker 中，你可以使用家里的 Nas、OpenWrt、树莓派等等可以运行 docker 环境的硬件运行起来，但需要注意的是，如果你的打印机只有 USB 接口，你需要使用带有 USB 接口的硬件运行，使得 CUPS 和打印机能够正常通信；
